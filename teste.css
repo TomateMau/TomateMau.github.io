@@ -1,0 +1,192 @@
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: rgba(243, 239, 239, 0.87);
+}
+
+.header {
+    background: #232526;
+    border-radius: 15px;
+    width: 80%;
+    height: 30px;
+    padding: 20px;
+    margin: 100px 0 0 130px;
+    z-index: 20;
+}
+
+.header2 {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin: 0;
+  }
+
+a {
+    text-decoration: none;
+    color: black;
+    transition: 1s;
+    font-family: 'New Tegomin', serif;
+    color:#d7d7eb;
+    padding: 20px;
+}
+
+a:hover {
+    background-color: rgb(230, 230, 230);
+    font-size: 20px;
+    color: black;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+
+
+#info {
+    position: relative;
+    top: 100px;
+    margin: 0 140px 0 130px;
+}
+
+.images {
+    position: relative;
+    top: 200px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+   width: 900px;
+   height: 500px;
+}
+
+.images img {
+    box-sizing: border-box;
+    box-shadow: 0 8px 14px 0 rgba(0, 0, 0, 0.4), 10px 10px 10px 0 rgba(0, 0, 0, 0.3);
+    padding: 15px;
+    margin: 20px;
+    width: 45%;
+    height: 50%;
+}
+
+img:hover {
+    opacity: 0.5;
+}
+
+                /* media */
+
+@media (max-width: 900px) {
+    .header {
+        width: 70%;
+        height: 30px;
+        padding: 20px;
+        z-index: 20;
+    }
+    .header2 {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        margin: 0;
+      }
+
+    .images {
+       width: 750px;
+       height: 400px;
+}
+
+.images img {
+    padding: 15px;
+    margin: 10px;
+    width: 45%;
+    height: 50%;
+}
+
+}
+
+@media (max-width: 750px) {
+
+    .header {
+        width: 60%;
+        height: 30px;
+        padding: 20px;
+        z-index: 20;
+    }
+  
+    .images {
+       width: 650px;
+       height: 400px;
+}
+
+.images img {
+    padding: 15px;
+    margin: 10px;
+    width: 45%;
+    height: 50%;
+}
+
+}
+
+@media (max-width: 650px) {
+
+    .header {
+        width: 100%;
+        height: 30px;
+        padding: 20px;
+        z-index: 20;
+        margin: 0;
+        border-radius: 0;
+    }
+
+    .images {
+       width: 550px;
+       height: 350px;
+}
+}
+
+
+@media (max-width: 550px) {
+
+    .images {
+       width: 500px;
+       height: 450px;
+       
+}
+
+.images img {
+    padding: 15px;
+    margin: 10px;
+    width: 90%;
+    height: 50%;
+}
+}
+
+@media (max-width: 480px) {
+
+    .images {
+       width: 400px;
+       height: 350px;
+       
+}
+
+#info {
+    position: relative;
+    top: 100px;
+    margin: 0 100px 0 100px;
+    font-size: 3vw;
+}
+}
+
+@media (max-width: 380px) {
+
+    .images {
+       width: 350px;
+       height: 350px;
+       
+}
+
+#info {
+    position: relative;
+    top: 100px;
+    margin: 0 10px 0 10px;
+    font-size: 4vw;
+}
+}
+
